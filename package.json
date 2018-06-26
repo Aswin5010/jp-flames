@@ -1,6 +1,6 @@
 {
   "name": "jp-flames",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "It will return flames result for the 2 values passed",
   "main": "index.js",
   "scripts": {
