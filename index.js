@@ -1,4 +1,6 @@
 const flames = (name, partner) => {
+    name = name.replace(/ /g,'');
+    partner = partner.replace(/ /g,'');
     let namearray, finalnamearrary;
     let partnerarray, finalpartnerarray;
     let lenthofname = 0;
