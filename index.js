@@ -1,6 +1,6 @@
 const flames = (name, partner) => {
-    name = name.replace(/ /g,'');
-    partner = partner.replace(/ /g,'');
+    name = name.replace(/ /g,'').toLowerCase();
+    partner = partner.replace(/ /g,'').toLowerCase();
     let namearray, finalnamearrary;
     let partnerarray, finalpartnerarray;
     let lenthofname = 0;
